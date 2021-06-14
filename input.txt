@@ -1,0 +1,55 @@
+
+MAIN Sf Ef
+
+
+Ss
+  
+   int a COMA b COMA c SEMI
+   int d SEMI
+
+   a (=) 10  SEMI 
+   b (=) 4  SEMI
+   c (=) b (+) a SEMI
+   d (=) 100 SEMI
+
+   
+   JODI Sf 5 (%) 2 Ef
+	  Ss
+	     5 (+) 4 SEMI 
+	  Es
+   
+   
+   
+   JODI Sf 1 BORO 2 Ef 
+     Ss
+	    3 (+) 2 SEMI
+	 Es
+   NAHOLE 
+     Ss
+       2 (+) 1 SEMI  
+     Es	 
+    
+	
+	
+	LOOP Sf 1 CHOTO 3 Ef
+       Ss
+           d (=) d (+) 100 SEMI 
+       Es	   
+
+
+
+     SWITCH Sf a Ef
+     Ss
+	  CASE 1 (:)
+	      1 (+) 0 SEMI BREAK SEMI
+	  (+)
+	  CASE 2 (:)
+	     2 (+) 1 SEMI BREAK SEMI
+	  (+)
+	  CASE 3 (:)
+	    3 (+) b  SEMI BREAK SEMI
+	  DEFAULT (:)
+	    4 (+) 1 SEMI BREAK SEMI	       
+     Es
+
+Es 
